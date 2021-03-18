@@ -19,8 +19,8 @@
   </div>
   <div id="menuDiv">
   <ul>
-      <li class="homeDiv">Home</li>
-      <li>About</li>
+     <a href="index.html"><li class="homeDiv">Home</li></a>
+      <a href="about.html"><li>About</li></a>
       <li>Projects</li>
       <li>Gallery</li>
       
@@ -48,10 +48,10 @@
 <div class="content2">
     
 </div>
-<div  class="down" style="position:absolute!important;"><b style="font-size:30px; line-height: 60px;">HOW IT STARTED</b><br/>
+<div  class="down" style="position:absolute!important; height:0%;"><b style="font-size:30px;">HOW IT STARTED</b><br/>
 
-    I fell in love with technology working with the Green Institute where i was given the opportunity to partake in the rebranding of the website, i was impressed with everything i saw and i decided to learn more about building Website from the scratch.
-    I enrolled at Illusthetics Digitals in Akure where i was<br/> guided into the world of Programming and it has been an amazing journey ever since.
+    I fell in love with technology working with the Green Institute where i was<br/> given the opportunity to partake in the rebranding of the website, i was impressed with everything i saw and i decided<br/> to learn more about building Website from the scratch.
+    With the help of God,my mum(Mrs Olaposi V.A), <br/>my sisters and my Aunty (Mrs Toyin Folrunsho) I enrolled at Illusthetics Digitals in Akure where i was<br/> guided into the world of Programming and it has been an amazing journey ever since.
       
     </div>
 
@@ -74,8 +74,10 @@
          font-size:20px; 
          color:aliceblue;
          text-align:center; 
-        line-height:60px;
-        margin-top:92%;
+        line-height:50px;
+        margin-top:75%;
+        margin-left:10%;
+        padding-top:2%;
     }
     
 
@@ -84,7 +86,7 @@
 footer{
 background-color: rgb(56, 55, 55);
 color:aliceblue;
-height:50px;
+height:40px!important;
 font-size:20px;
 text-align:center;
 padding-top:2%;
@@ -96,7 +98,7 @@ cursor:pointer;
 
 .content3{
     background-color: rgba(197, 110, 59, 0.938);
-    height:7%;
+    height:8%;
     margin-top:5%;
     color:antiquewhite;
     font-size:20px;
@@ -111,23 +113,22 @@ cursor:pointer;
 
   .content2{
    background-color: rgba(197, 110, 59, 0.938);
-   height:40%;
-   margin-top:2%;
+   height:60%;
+    margin-top:10%;
   }
   .content2::after{
     content: '';
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    height:80vh;
+    height:50vh;
     background-color: #000;
   opacity: 0.9;
   }
     .content{
         
-        height:30%;
+        /* height:20%; */
         color:#000;
         margin-top:5%;
-        /* margin-left: 30%; */
         text-align: center;
         font-size: 40px;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -147,10 +148,8 @@ cursor:pointer;
 }
 .profile{
     background-image:url("images/busolaa.jpg");
-    /* color:red; */
-    height:120vh;
+    height:100vh;
     width:100%;
-
     background-size: cover;
 }
 .profile::after{
@@ -159,14 +158,14 @@ cursor:pointer;
     top: 0%;
     left: 0;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background-color: #000;
   opacity: 0.9;
 }
 body{
     margin: 0;
     font-family: sans-serif;
-    min-height:200vh;
+    min-height:100vh;
     display:flex;
     flex-direction: column;
 }
@@ -202,22 +201,45 @@ background-color:brown;
 @media (max-width: 600px){
 .name{
     line-height:20px;
+    font-size:20px!important;
 }
-
+body{
+    margin: 0;
+    font-family: sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+}
     .profile{
     background-image:url("images/busolaa.jpg");
-    /* color:red; */
-    height:120vh;
+    height:70vh;
     width:100%;
-
     background-size: cover;
+}
+
+.profile::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+  opacity: 0.9;
+}
+.content{
+    height:60%;
 }
     content::after{
         height:23%;
     }
     .down{
-        margin-top:340%;
-        line-height:30px;
+        margin-top:250%;
+        line-height:25px;
+        height:60%;
+    }
+    .content2{
+        height:70%!important;
     }
     .name{
         margin-right:18%;
