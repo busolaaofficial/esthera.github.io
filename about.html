@@ -12,17 +12,18 @@
     <div class="profile">
       
     </div>
-    <div style="position: absolute; color:rgba(197, 110, 59, 0.938); padding-top: 2%; margin-left:5%;">~BusolaDev~</div>
+    <div style="position: absolute; color:rgba(197, 110, 59, 0.938); padding-top:5%;margin-left:5%;">~BusolaDev~</div>
     
     <div id="mobile_menu_icon" style=" position:absolute;margin-left:900px; margin-top:2%; font-size:30px; color:rgba(197, 110, 59, 0.938);">
         &#9776;
       </div>
       <div id="menuDiv">
       <ul>
-        <a href="index.html" style="color:aliceblue;"><li class="homeDiv">Home</li></a>
-          <a href="about.html" style="color:aliceblue;"><li>About</li></a>
-          <li>Projects</li>
-          <li>Gallery</li>
+        <a href="index.html"><li class="homeDiv">Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+        <a href="project.html"><li>Projects</li></a>
+      
           
     
     
@@ -30,12 +31,22 @@
       </ul>
       </div>
 
-      <div  class="down" ><b style="font-size:30px; line-height: 60px;">HOW IT STARTED</b><br/>
+      <div  class="down" ><b style="font-size:30px; line-height: 50px;">HOW IT STARTED</b><br/>
 
-        I fell in love with technology working with the Green Institute where i was given the opportunity to partake in the rebranding of the website, i was impressed with everything i saw and i decided to learn more about building Website from the scratch.
-        With the help of God,my mum(Mrs Olaposi V.A), my sisters and my Aunty (Mrs Toyin Folrunsho) I enrolled at Illusthetics Digitals in Akure where i was<br/> guided into the world of Programming and it has been an amazing journey ever since.
+        I fell in love with technology working with the Green Institute where I was given the opportunity to partake in the rebranding of the website, i was impressed with everything i saw and i decided to learn more about building Website from the scratch.
+        With the help of God,my Mum(Mrs Olaposi V.A),my big Mummy(Mrs Juliana Fasusi, my Wonderful sisters and my big aunty (Mrs Toyin Folrunsho) I enrolled at Illusthetics Digitals in Akure where i was<br/> guided into the world of Programming and it has been an amazing journey ever since.
           
         </div>
+        <hr/>
+        <div class="vision">
+          <b style="font-size:25px;">  Vision</b><br/>
+            To digitalize the world 
+        </div>
+        <hr/>
+        <div class="mission">
+            <b style="font-size:25px;">Mission Statement</b><br/>
+        To bring technology to the remote areas all over the world by creating websites that will unite the urban and rural areas in the world.
+</div>
 
 <footer>
 
@@ -44,22 +55,33 @@
 
 <style>
     .down{
-        /* position: absolute!important; */
          font-size:20px; 
          color:#252525;
          text-align:center; 
         line-height:60px;
         margin-top:10%;
     }
-    
-
+    #menuDiv ul li{
+         color:aliceblue;
+         list-style:none;
+     }
+.vision{
+    font-size:20px;
+    text-align:center;
+    line-height:40px;
+}
  
-
+.mission{
+    font-size:20px;
+    text-align:center;
+    line-height:40px;
+    margin-bottom:5%;
+}
 footer{
 background-color: rgb(56, 55, 55);
 color:aliceblue;
 height:40px;
-font-size:20px;
+font-size:13px;
 text-align:center;
 padding-top:2%;
 margin-top: auto;
@@ -122,9 +144,7 @@ cursor:pointer;
 .profile{
     
     height:10vh!important;
-    width:100%;
-
-    background-size: cover;
+    width:100%
 }
 .profile::after{
     content: '';
@@ -178,9 +198,7 @@ background-color:brown;
 }
 
     .profile{
-    background-image:url("images/busolaa.jpg");
-    /* color:red; */
-    height:120vh;
+    height:10vh;
     width:100%;
 
     background-size: cover;
@@ -189,14 +207,32 @@ background-color:brown;
         height:23%;
     }
     .down{
-        margin-top:340%;
+        margin-bottom:10%;
         line-height:30px;
+        margin-top:10%;
+        font-size:17px;
     }
     .name{
         margin-right:18%;
     }
     #menuDiv ul li:hover{
 background-color:brown;
+}
+#mobile_menu_icon{
+    width:15%;
+}
+#menuDiv{
+    width:30%;
+    position:absolute;
+left:75%!important;
+}
+#menuDiv ul li{
+    list-style:none;
+    color:aliceblue;
+    text-decoration:none;
+}
+.vision, .mission{
+    font-size:17px;
 }
 }
 </style>
